@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-image: url("4002676.jpg");
+    background-size: cover;
+    font-family: sans-serif;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    
+}
+h2{
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 35px;
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 3px 3px 4px rgba(0,0,0,0.3);
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgba(0,0,0,0.1);
+    border-radius: 5px;
+    margin-right: 60px;
+}
+.clock{
+    display: flex;
+    margin-right: 59px;
+   
+   
+}
+.clock div{
+    margin: 5px;
+}
+.clock span{
+    width: 100px;
+    height: 80px;
+    background-color: rgb(227, 102, 57) ;
+   
+    opacity: .8;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+   
+}
+.clock .text{
+    height: 30px;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+   
+    background-color: rgb(255, 68, 0);
+
+}
+.clock #ampm{
+  margin-top: 80px;
+  position: absolute;
+  width: 60px;
+  height: 30px;
+  font-size: 20px;
+  background-color: rgb(255, 68, 0);
+
+}
+@media  (max-width: 480px) {
+    
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h2{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 25px;
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 3px 3px 4px rgba(0,0,0,0.3);
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgba(0,0,0,0.1);
+    border-radius: 4px;
+}
+.clock span{
+    width: 80px;
+    height: 60px;
+    background-color: rgb(227, 102, 57) ;
+   
+    opacity: .8;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+.clock #ampm{
+    margin-top: 61px;
+    position: absolute;
+    width: 60px;
+    height: 30px;
+    font-size: 20px;
+    background-color: rgb(255, 68, 0);
+  
+  }
+   
+
+    }
