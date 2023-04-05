@@ -5,7 +5,7 @@ body{
     height: 100vh;
     align-items: center;
     justify-content: center;
-    background-image: url("4002676.jpg");
+    background-image: url('4002676.jpg');
     background-size: cover;
     font-family: sans-serif;
     overflow: hidden;
